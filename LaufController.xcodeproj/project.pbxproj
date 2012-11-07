@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF835C23164AD35A00399B9B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF835C22164AD35A00399B9B /* Cocoa.framework */; };
+		DF835C2D164AD35A00399B9B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF835C2B164AD35A00399B9B /* InfoPlist.strings */; };
+		DF835C2F164AD35A00399B9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF835C2E164AD35A00399B9B /* main.m */; };
+		DF835C33164AD35A00399B9B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DF835C31164AD35A00399B9B /* Credits.rtf */; };
+		DF835C36164AD35A00399B9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF835C35164AD35A00399B9B /* AppDelegate.m */; };
+		DF835C39164AD35A00399B9B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF835C37164AD35A00399B9B /* MainMenu.xib */; };
+		DF835C41164AD35A00399B9B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF835C40164AD35A00399B9B /* SenTestingKit.framework */; };
+		DF835C42164AD35A00399B9B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF835C22164AD35A00399B9B /* Cocoa.framework */; };
+		DF835C4A164AD35A00399B9B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF835C48164AD35A00399B9B /* InfoPlist.strings */; };
+		DF835C4D164AD35A00399B9B /* LaufControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF835C4C164AD35A00399B9B /* LaufControllerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF835C43164AD35A00399B9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF835C15164AD35A00399B9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF835C1D164AD35A00399B9B;
+			remoteInfo = LaufController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF835C1E164AD35A00399B9B /* LaufController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaufController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF835C22164AD35A00399B9B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DF835C25164AD35A00399B9B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DF835C26164AD35A00399B9B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DF835C27164AD35A00399B9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DF835C2A164AD35A00399B9B /* LaufController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LaufController-Info.plist"; sourceTree = "<group>"; };
+		DF835C2C164AD35A00399B9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DF835C2E164AD35A00399B9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF835C30164AD35A00399B9B /* LaufController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LaufController-Prefix.pch"; sourceTree = "<group>"; };
+		DF835C32164AD35A00399B9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		DF835C34164AD35A00399B9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF835C35164AD35A00399B9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF835C38164AD35A00399B9B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DF835C3F164AD35A00399B9B /* LaufControllerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaufControllerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF835C40164AD35A00399B9B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DF835C47164AD35A00399B9B /* LaufControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LaufControllerTests-Info.plist"; sourceTree = "<group>"; };
+		DF835C49164AD35A00399B9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DF835C4B164AD35A00399B9B /* LaufControllerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LaufControllerTests.h; sourceTree = "<group>"; };
+		DF835C4C164AD35A00399B9B /* LaufControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LaufControllerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF835C1B164AD35A00399B9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF835C23164AD35A00399B9B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF835C3B164AD35A00399B9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF835C41164AD35A00399B9B /* SenTestingKit.framework in Frameworks */,
+				DF835C42164AD35A00399B9B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF835C13164AD35A00399B9B = {
+			isa = PBXGroup;
+			children = (
+				DF835C28164AD35A00399B9B /* LaufController */,
+				DF835C45164AD35A00399B9B /* LaufControllerTests */,
+				DF835C21164AD35A00399B9B /* Frameworks */,
+				DF835C1F164AD35A00399B9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF835C1F164AD35A00399B9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF835C1E164AD35A00399B9B /* LaufController.app */,
+				DF835C3F164AD35A00399B9B /* LaufControllerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF835C21164AD35A00399B9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF835C22164AD35A00399B9B /* Cocoa.framework */,
+				DF835C40164AD35A00399B9B /* SenTestingKit.framework */,
+				DF835C24164AD35A00399B9B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF835C24164AD35A00399B9B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF835C25164AD35A00399B9B /* AppKit.framework */,
+				DF835C26164AD35A00399B9B /* CoreData.framework */,
+				DF835C27164AD35A00399B9B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		DF835C28164AD35A00399B9B /* LaufController */ = {
+			isa = PBXGroup;
+			children = (
+				DF835C34164AD35A00399B9B /* AppDelegate.h */,
+				DF835C35164AD35A00399B9B /* AppDelegate.m */,
+				DF835C37164AD35A00399B9B /* MainMenu.xib */,
+				DF835C29164AD35A00399B9B /* Supporting Files */,
+			);
+			path = LaufController;
+			sourceTree = "<group>";
+		};
+		DF835C29164AD35A00399B9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF835C2A164AD35A00399B9B /* LaufController-Info.plist */,
+				DF835C2B164AD35A00399B9B /* InfoPlist.strings */,
+				DF835C2E164AD35A00399B9B /* main.m */,
+				DF835C30164AD35A00399B9B /* LaufController-Prefix.pch */,
+				DF835C31164AD35A00399B9B /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF835C45164AD35A00399B9B /* LaufControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF835C4B164AD35A00399B9B /* LaufControllerTests.h */,
+				DF835C4C164AD35A00399B9B /* LaufControllerTests.m */,
+				DF835C46164AD35A00399B9B /* Supporting Files */,
+			);
+			path = LaufControllerTests;
+			sourceTree = "<group>";
+		};
+		DF835C46164AD35A00399B9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF835C47164AD35A00399B9B /* LaufControllerTests-Info.plist */,
+				DF835C48164AD35A00399B9B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF835C1D164AD35A00399B9B /* LaufController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF835C50164AD35A00399B9B /* Build configuration list for PBXNativeTarget "LaufController" */;
+			buildPhases = (
+				DF835C1A164AD35A00399B9B /* Sources */,
+				DF835C1B164AD35A00399B9B /* Frameworks */,
+				DF835C1C164AD35A00399B9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LaufController;
+			productName = LaufController;
+			productReference = DF835C1E164AD35A00399B9B /* LaufController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF835C3E164AD35A00399B9B /* LaufControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF835C53164AD35A00399B9B /* Build configuration list for PBXNativeTarget "LaufControllerTests" */;
+			buildPhases = (
+				DF835C3A164AD35A00399B9B /* Sources */,
+				DF835C3B164AD35A00399B9B /* Frameworks */,
+				DF835C3C164AD35A00399B9B /* Resources */,
+				DF835C3D164AD35A00399B9B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF835C44164AD35A00399B9B /* PBXTargetDependency */,
+			);
+			name = LaufControllerTests;
+			productName = LaufControllerTests;
+			productReference = DF835C3F164AD35A00399B9B /* LaufControllerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF835C15164AD35A00399B9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Jonas Scharpf";
+			};
+			buildConfigurationList = DF835C18164AD35A00399B9B /* Build configuration list for PBXProject "LaufController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DF835C13164AD35A00399B9B;
+			productRefGroup = DF835C1F164AD35A00399B9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF835C1D164AD35A00399B9B /* LaufController */,
+				DF835C3E164AD35A00399B9B /* LaufControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF835C1C164AD35A00399B9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF835C2D164AD35A00399B9B /* InfoPlist.strings in Resources */,
+				DF835C33164AD35A00399B9B /* Credits.rtf in Resources */,
+				DF835C39164AD35A00399B9B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF835C3C164AD35A00399B9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF835C4A164AD35A00399B9B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DF835C3D164AD35A00399B9B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF835C1A164AD35A00399B9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF835C2F164AD35A00399B9B /* main.m in Sources */,
+				DF835C36164AD35A00399B9B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF835C3A164AD35A00399B9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF835C4D164AD35A00399B9B /* LaufControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF835C44164AD35A00399B9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF835C1D164AD35A00399B9B /* LaufController */;
+			targetProxy = DF835C43164AD35A00399B9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF835C2B164AD35A00399B9B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF835C2C164AD35A00399B9B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DF835C31164AD35A00399B9B /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF835C32164AD35A00399B9B /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		DF835C37164AD35A00399B9B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF835C38164AD35A00399B9B /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		DF835C48164AD35A00399B9B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF835C49164AD35A00399B9B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF835C4E164AD35A00399B9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DF835C4F164AD35A00399B9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DF835C51164AD35A00399B9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LaufController/LaufController-Prefix.pch";
+				INFOPLIST_FILE = "LaufController/LaufController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DF835C52164AD35A00399B9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LaufController/LaufController-Prefix.pch";
+				INFOPLIST_FILE = "LaufController/LaufController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DF835C54164AD35A00399B9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LaufController.app/Contents/MacOS/LaufController";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LaufController/LaufController-Prefix.pch";
+				INFOPLIST_FILE = "LaufControllerTests/LaufControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DF835C55164AD35A00399B9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LaufController.app/Contents/MacOS/LaufController";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LaufController/LaufController-Prefix.pch";
+				INFOPLIST_FILE = "LaufControllerTests/LaufControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF835C18164AD35A00399B9B /* Build configuration list for PBXProject "LaufController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF835C4E164AD35A00399B9B /* Debug */,
+				DF835C4F164AD35A00399B9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF835C50164AD35A00399B9B /* Build configuration list for PBXNativeTarget "LaufController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF835C51164AD35A00399B9B /* Debug */,
+				DF835C52164AD35A00399B9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF835C53164AD35A00399B9B /* Build configuration list for PBXNativeTarget "LaufControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF835C54164AD35A00399B9B /* Debug */,
+				DF835C55164AD35A00399B9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF835C15164AD35A00399B9B /* Project object */;
+}
