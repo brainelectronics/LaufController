@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF62606716763031002CDA03 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF62606616763031002CDA03 /* IOKit.framework */; };
 		DF835C23164AD35A00399B9B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF835C22164AD35A00399B9B /* Cocoa.framework */; };
 		DF835C2D164AD35A00399B9B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF835C2B164AD35A00399B9B /* InfoPlist.strings */; };
 		DF835C2F164AD35A00399B9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF835C2E164AD35A00399B9B /* main.m */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF62606616763031002CDA03 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		DF835C1E164AD35A00399B9B /* LaufController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaufController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF835C22164AD35A00399B9B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		DF835C25164AD35A00399B9B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF62606716763031002CDA03 /* IOKit.framework in Frameworks */,
 				DF835C23164AD35A00399B9B /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -94,6 +97,7 @@
 		DF835C21164AD35A00399B9B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DF62606616763031002CDA03 /* IOKit.framework */,
 				DF835C22164AD35A00399B9B /* Cocoa.framework */,
 				DF835C40164AD35A00399B9B /* SenTestingKit.framework */,
 				DF835C24164AD35A00399B9B /* Other Frameworks */,
@@ -324,7 +328,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -353,7 +357,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -444,6 +448,7 @@
 				DF835C52164AD35A00399B9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF835C53164AD35A00399B9B /* Build configuration list for PBXNativeTarget "LaufControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +457,7 @@
 				DF835C55164AD35A00399B9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
